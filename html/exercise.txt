@@ -1,0 +1,6 @@
+1) create web page for IPL point-table using table tag. 
+2) create web page that display all ipl team's logo and name. display 4 team logo & name in one line. logo should appear first and name in next line. 
+3) create your resume using only html tag.
+https://images.template.net/wp-content/uploads/2018/11/Free-Basic-Resume-Template2.jpg
+4) create forgot password page. 
+5) create change password page. 

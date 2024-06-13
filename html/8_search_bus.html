@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>search bus route</h1>
+    <form action="success.html" method="post">
+        <table border="1" align="center" cellpadding="10" width="70%">
+            <tr>
+                <td width="35%">
+                    From
+                </td>
+                <td>
+                    <input type="text" name="from" id="from" required />
+                </td>
+            </tr>
+            <tr>
+                <td>To</td>
+                <td>
+                    <input type="text" name="to" id="to" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Journey</td>
+                <td>
+                    <input type="date" name="Journey" id="Journey" required min="2024-06-13" 
+                    max="2024-07-12"  required />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Passangers (minimum 1 and maximum 6 tickets can be booked)
+                </td>
+                <td valign="top">
+                    <input type="number" name="Passangers" id="Passangers" required min="1" max="6" />
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">Bus type</td>
+                <td>
+                    <label for="gujarnagari">
+                        <input type="radio" name="bustype" id="gujarnagari" value="1" /> Gurjarnagari
+                    </label> <br />
+                    <label for="express">
+                        <input type="radio" name="bustype" id="express" value="2" />
+                    </label> Express <br />
+                    <label for="AC">
+                        <input type="radio" name="bustype" id="AC" value="3" />
+                    </label> AC <br />
+                    <label for="sleeper">
+                        <input type="radio" name="bustype" id="sleeper" value="4" /> Sleeper
+                    </label> <br />
+                    <label for="acsleeper">
+                        <input type="radio" name="bustype" id="acsleeper" value="5" /> AC Sleeper
+                    </label>
+                    <br />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="search route" name="search" />
+                    <input type="reset" value="clear all" name="clear" />
+                </td>
+            </tr>
+           
+        </table>
+    </form>
+</body>
+
+</html>
